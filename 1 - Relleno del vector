@@ -1,0 +1,10 @@
+Algoritmo Relleno_del_vector
+	Definir num, vector, i Como Entero
+	Dimension vector[5]
+	Para i<-0 Hasta 4 Con Paso 1 Hacer
+		Escribir "Ingrese un valor"
+		Leer num
+		vector[i]<-num  
+		Escribir "Valor ingresado: " vector[i]
+	FinPara
+FinAlgoritmo

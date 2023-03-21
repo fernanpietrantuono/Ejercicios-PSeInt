@@ -1,0 +1,15 @@
+Algoritmo adivinarClave
+	Definir clave Como Caracter
+	Definir contador Como Entero
+	contador = 0
+	Hacer
+		Escribir "Escribí una contraseña"
+		Leer clave
+		contador = contador + 1
+	Mientras Que clave <> "eureka" Y contador < 3
+	Si clave = "eureka" Entonces
+		Escribir "Felicitaciones pusiste correctamente la clave."
+	SiNo
+		Escribir "Agostaste los 3 intentos."
+	FinSi
+FinAlgoritmo

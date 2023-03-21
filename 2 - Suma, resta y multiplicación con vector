@@ -1,0 +1,18 @@
+Algoritmo Suma_resta_y_multiplicacion_con_vector
+	Definir i, suma, resta, multiplicacion, num, vector Como Entero
+	Dimension vector[10]
+	suma<-0
+	resta<-0
+	multiplicacion<-1
+	Para i<-0 Hasta 9 Con Paso 1 Hacer
+		Escribir "Ingrese un valor para el subíndice " i
+		Leer num
+		vector[i]<-num
+		suma<-suma+vector[i]		
+		resta<-resta-vector[i]
+		multiplicacion<-multiplicacion*vector[i]		
+	FinPara
+ 	Escribir "El resultado de la suma es " suma 
+	Escribir "El resultado de la resta es " resta
+	Escribir "El resultado de la multiplicacion es " multiplicacion
+FinAlgoritmo
